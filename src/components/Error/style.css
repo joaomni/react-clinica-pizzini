@@ -1,0 +1,43 @@
+section.error {
+  background: url(../../assets/error/background-errors.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+}
+.box-error {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+
+  align-items: end;
+  justify-content: space-evenly;
+  gap: 4rem;
+
+  font-weight: 700;
+  text-shadow: white 1px 1px 1px;
+  letter-spacing: 1px;
+}
+.error1 {
+  width: 45%;
+  margin-top: 28px;
+}
+.error2 {
+  width: 50%;
+}
+.error3 {
+  width: 55%;
+  padding-bottom: 28px;
+}
+.box-error span {
+  font-size: clamp(1em, 1em + 1vw, 1em);
+}
+.box-error h5 {
+  color: #636363;
+  font-weight: 700;
+}
+.box-error p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #5b5b5b;
+}

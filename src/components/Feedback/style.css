@@ -1,0 +1,137 @@
+/* CONTAINER */
+.c-feedback {
+  padding: 0 0 3rem 0;
+  background-color: white;
+  text-align: center;
+}
+/* BOX */
+.box-feedback {
+  display: grid;
+  justify-content: center;
+  background-color: #f7f7f7;
+
+  padding: 1rem 0 1rem 0;
+}
+.feedback-title h1 {
+  font-weight: 700;
+  color: #c1c1c1;
+  font-size: 3rem;
+}
+/* SLIDE */
+.slide-trustindex {
+  width: 60vw;
+}
+/* GOOGLE */
+.slide-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-content {
+  width: 50%;
+}
+.google-content img {
+  width: 110px !important;
+  height: 35px !important;
+}
+.google-stars span {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 0 !important;
+  margin-right: 1px !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.google-text strong {
+  font-size: 16px;
+  display: block;
+  margin-top: 3px;
+}
+.google-text span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* DEPOIMENTOS */
+.box-dep {
+  background: black !important;
+  border-radius: 5px;
+  color: white;
+
+  padding: 18px;
+  width: 89%;
+}
+
+.dep-header {
+  display: flex;
+  justify-content: space-between;
+
+  text-align: left;
+}
+.dep-header img {
+  width: 42px !important;
+  height: 42px !important;
+  background: white;
+  border-radius: 50%;
+}
+.dep-title {
+  margin-right: 218px;
+}
+.dep-title h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.dep-title p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #949494;
+
+  margin-bottom: 0;
+}
+span.google-icon {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(https://cdn.trustindex.io/assets/platform/Google/icon.svg);
+}
+
+
+.dep-star {
+  display: flex;
+  padding: 12px 0 10px 0;
+}
+.dep-star span {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin: 0 !important;
+  margin-right: 1px !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.star{
+  background-image: url(https://cdn.trustindex.io/assets/platform/Google/star/f.svg);
+}
+
+.dep-text {
+  text-align: left;
+}
+
+
+.line img {
+  margin-top: 40px;
+  width: 80vw;
+}
+
+@media (max-width: 1000px) {
+  .slide-google {
+    flex-direction: column;
+  }
+  .slide-trustindex {
+    width: 98vw;
+  }
+}

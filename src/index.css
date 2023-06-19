@@ -1,0 +1,155 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/** RESPONSIVIDADE SECTION CAMINHOS **/
+@media (max-width: 900px) {
+  #box-road {
+    flex-direction: column;
+  }
+}
+
+/** RESPONSIVIDADE SECTION ERROS **/
+@media (max-width: 1200px) {
+  .borda {
+    display: none;
+  }
+
+  .error1 {
+    width: 90%;
+  }
+  .error2 {
+    width: 90%;
+  }
+  .error3 {
+    width: 90%;
+  }
+}
+
+/** Responsividade Depoimentos **/
+@media (max-width: 1400px) {
+  section.error {
+    height: auto;
+  }
+  .box-feedback {
+    gap: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .box-feedback div {
+    row-gap: 2rem;
+  }
+
+  .feedback-title h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .box-perfil {
+    justify-content: center;
+  
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    padding-bottom: 48px;
+  }
+  .content-perfil {
+    padding: 10px 8px 0 8px;
+    margin: 100px 0 20px 0;
+  }
+}
+
+/** RESPONSIVIDADE FOOTER **/
+@media (max-width: 800px) {
+  .title { 
+    font-size: 2.5rem; 
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    letter-spacing: 8px;
+  }
+  .box-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 90vw;
+
+    margin-bottom: 2rem;
+  }
+
+  .infos {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1100px) {
+  /** MAIN **/
+  main {
+    height: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .slide1 {
+    display: none;
+  }
+  .slide2 {
+    display: none;
+  }
+  .slide3 {
+    display: none;
+  }
+  .slide4 {
+    display: none;
+  }
+  .box-video {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+  }
+  video {
+    border: 8px white solid;
+    width: 90%;
+    height: 40vh;
+  }
+
+  div#subtitle {
+    font-size: 28px;
+    letter-spacing: 18px;
+    color: #b18b3b;
+  }
+
+  #road1 {
+    height: auto;
+  }
+}
+@media (max-width: 800px) {
+  /** CLINICA **/
+  .c-clinic img {
+    height: 30vh;
+    padding: 2px;
+  }
+
+  /** CAMINHOS **/
+  #box-road {
+    padding: 1rem;
+  }
+
+  .road {
+    text-align: center;
+  }
+
+  .box-error {
+    text-align: center;
+  }
+}

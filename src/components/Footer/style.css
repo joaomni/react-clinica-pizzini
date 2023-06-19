@@ -1,0 +1,58 @@
+.c-rodape {
+  background-color: #c0963e;
+  display: grid;
+  justify-content: center;
+}
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+}
+.footer-menu a {
+  font-size: 16px;
+  font-weight: 500;
+}
+/** DIV **/
+.box-footer {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  
+  grid-auto-flow: column;
+  grid-template-columns: 200px 200px 200px;
+  width: 90vw;
+}
+/** INFORMAÇÕES **/
+.infos {
+  color: white;
+  text-align: left;
+  font-weight: 300;
+  
+  font-size: 16px;
+}
+.infos img {
+  width: 200px;
+  margin-bottom: 18px;
+}
+/** WHATSAPP **/
+.btn-whats {
+  border: none;
+  border-radius: 10px;
+  background-color: #25d366;
+
+  color: white;
+  font-weight: 700;
+  padding: 10px 30px;
+
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  font-size: 18px;
+}
+
+.icones {
+ display: flex;
+ justify-content: center;
+ gap: 2rem;
+}

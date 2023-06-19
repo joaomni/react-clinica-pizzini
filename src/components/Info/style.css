@@ -1,0 +1,117 @@
+.c-skills {
+  background-color: #404343;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 2rem;
+  padding: 2rem 0 2rem 0;
+  width: 100%;
+
+  max-width: 1336px;
+  margin-right: auto;
+  margin-left: auto;
+
+  flex-direction: row;
+}
+div.skills span {
+  font-weight: 700;
+}
+
+div.skill {
+  margin-bottom: 20px;
+  margin-top: 58px;
+
+  padding: 30px;
+  width: 300px;
+  border-radius: 13px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #58687c;
+
+  -webkit-transform: skew(-10deg); /* Chrome, Opera */
+      -ms-transform: skew(-10deg); /* IE */
+          transform: skew(-10deg); /* Padrão */
+}
+
+.eixo-zero {
+  -webkit-transform: skew(10deg); /* Chrome, Opera */
+      -ms-transform: skew(10deg); /* IE */
+          transform: skew(10deg); /* Padrão */
+}
+
+img.eixo-zero {
+  width: 80px;
+  padding: 0 0 18px 0;
+  position: absolute;
+
+  top: -42px;
+  left: 100px;
+  z-index: 2;
+}
+
+div.skill h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+
+  letter-spacing: 3px;
+}
+
+div.skill p {
+  padding-left: 12px;
+  color: white;
+  font-size: 16px;
+
+  text-align: left;
+}
+
+.borda img {
+  position: absolute;
+  height: 298px;
+  width: 380px;
+
+  top: -58px;
+  left: -75px;
+  z-index: 1;
+
+  -webkit-transform: skew(6deg); /* Chrome, Opera */
+      -ms-transform: skew(6deg); /* IE */
+          transform: skew(6deg); /* Padrão */
+}
+
+/** RESPONSIVIDADE SECTION **/
+@media (max-width: 1200px) {
+  .borda {
+    display: none;
+  }
+
+  div.skill {
+    border: 1px white solid;
+  }
+}
+@media (max-width: 400px) {
+  .c-skills {
+    padding-left: 1rem;
+  padding-right: 1rem;
+  }
+
+  div.skill {
+    width: 100%;
+
+    -webkit-transform: skew(0deg); /* Chrome, Opera */
+        -ms-transform: skew(0deg); /* IE */
+            transform: skew(0deg); /* Padrão */
+  }
+  .eixo-zero {
+    -webkit-transform: skew(0deg); /* Chrome, Opera */
+        -ms-transform: skew(0deg); /* IE */
+            transform: skew(0deg); /* Padrão */
+  }
+}

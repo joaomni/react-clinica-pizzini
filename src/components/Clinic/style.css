@@ -1,0 +1,35 @@
+section.c-clinic {
+  width: 100vw;
+  max-width: 100%;
+  background-color: #eceae5;
+}
+
+.c-clinic img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.c-clinic .img-mobile {
+  width: 100%;
+  height: auto;
+}
+
+.img-mobile {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .img-desktop {
+    display: none;
+  }
+  .img-mobile {
+    display: block;
+  }
+  .box-clinic {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    padding: 10px;
+  }
+}

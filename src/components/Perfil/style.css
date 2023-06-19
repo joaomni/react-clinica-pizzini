@@ -1,0 +1,130 @@
+.c-perfil {
+  background-image: url(../../assets/background-perfil.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.perfil-title h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #806b3f;
+
+  letter-spacing: 1rem;
+  padding-top: 2rem;
+}
+
+.box-perfil {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #e4dccd; */
+
+  /* column-gap: 12rem; */
+  flex-wrap: wrap;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.content-perfil {
+  width: 500px;
+  padding: 10px 8px 0 8px;
+  margin: 58px 0 20px 0;
+
+  background-color: white;
+  border-radius: 13px;
+}
+.header-perfil {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}
+
+.header-perfil strong {
+  color: #806b3f;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.header-perfil p {
+  font-size: 16px;
+  text-align: start;
+
+  width: auto;
+  padding: 8px;
+}
+
+.doctor {
+  text-align: left;
+  font-weight: 500;
+  font-size: 15px;
+
+  padding: 0 28px 0 28px;
+  line-height: 2rem; 
+}
+
+#perfil {
+  width: 48%;
+  height: 218px;
+
+  border: 10px white solid;
+  border-radius: 50%;
+  margin: 0px -40px -50px 0px;
+
+  position: relative;
+  right: 10%;
+  top: -58px;
+}
+.pizzini {
+  background-image: url(../../assets/pizzini.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: right 64% top 19%;
+}
+.gianolla {
+  background-image: url(../../assets/gianolla.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right 48% top 50%;
+}
+
+@media (max-width: 600px) {
+  .header-perfil {
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+  }
+  .box-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 28px 0 28px;
+  }
+
+  #perfil {
+    width: 100%;
+    height: 218px;
+  
+    border: 20px white solid;
+    border-radius: 0px;
+    margin: 0;
+  
+    position: block;
+    right: 0;
+    top: 0;
+  }
+
+  .pizzini {
+    background-color: white;
+    background-image: url(../../assets/pizzini.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: right 50% top 18%;
+  }
+  .gianolla {
+    background-color: white;
+    background-image: url(../../assets/gianolla.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: right 50% top 30%;
+  }
+}

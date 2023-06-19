@@ -1,0 +1,19 @@
+.float-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+
+  bottom: 40px;
+  right: 40px;
+
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+
+  background-color: #D4A848;
+  border-radius: 50px;
+  box-shadow: 1px 1px 2px #636363;
+}
+
+.float-button a {
+}
